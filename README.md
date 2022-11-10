@@ -2,8 +2,8 @@
 
 
 
-<p align="center">Launcher Exclusivo para ConceptionRP</p>
+<p align="center">Launcher Exclusivo para Panda Studio</p>
 
 ![Screenshot 1](https://i.imgur.com/y3DxtFW.png)
 
-https://github.com/alextorreg/ConceptionLauncher/releases/tag/minecraft
+https://github.com/alextorreg/PandaLauncher/releases/
