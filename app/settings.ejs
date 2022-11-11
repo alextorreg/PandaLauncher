@@ -2,7 +2,7 @@
     <div id="settingsContainerLeft">
         <div id="settingsNavContainer">
             <div id="settingsNavHeader">
-                <span id="settingsNavHeaderText">Settings</span>
+                <span id="settingsNavHeaderText">Opciones</span>
             </div>
             <div id="settingsNavItemsContainer">
                 <div id="settingsNavItemsContent">
@@ -25,8 +25,8 @@
     <div id="settingsContainerRight">
         <div id="settingsTabAccount" class="settingsTab">
             <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Account Settings</span>
-                <span class="settingsTabHeaderDesc">Add new accounts or manage existing ones.</span>
+                <span class="settingsTabHeaderText">Opciones de cuenta</span>
+                <span class="settingsTabHeaderDesc">Agrega nuevas cuentas o gestiona las cuentas añadidas.</span>
             </div>
             <div class="settingsAuthAccountTypeContainer">
                 <div class="settingsAuthAccountTypeHeader">
@@ -40,7 +40,7 @@
                         <span>Microsoft</span>
                     </div>
                     <div class="settingsAuthAccountTypeHeaderRight">
-                        <button class="settingsAddAuthAccount" id="settingsAddMicrosoftAccount">+ Add Microsoft Account</button>
+                        <button class="settingsAddAuthAccount" id="settingsAddMicrosoftAccount">+ Añadir cuenta de Microsoft</button>
                     </div>
                 </div>
                 
@@ -60,7 +60,7 @@
                         <span>Mojang</span>
                     </div>
                     <div class="settingsAuthAccountTypeHeaderRight">
-                        <button class="settingsAddAuthAccount" id="settingsAddMojangAccount">+ Add Mojang Account</button>
+                        <button class="settingsAddAuthAccount" id="settingsAddMojangAccount">+ Añadir cuenta de Mojang</button>
                     </div>
                 </div>
                 
@@ -71,11 +71,11 @@
         </div>
         <div id="settingsTabMinecraft" class="settingsTab" style="display: none;">
             <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Minecraft Settings</span>
-                <span class="settingsTabHeaderDesc">Options related to game launch.</span>
+                <span class="settingsTabHeaderText">Configuracion Minecraft</span>
+                <span class="settingsTabHeaderDesc"> </span>
             </div>
             <div id="settingsGameResolutionContainer">
-                <span class="settingsFieldTitle">Game Resolution</span>
+                <span class="settingsFieldTitle">Resolucion del juego</span>
                 <div id="settingsGameResolutionContent">
                     <input type="number" id="settingsGameWidth" min="0" cValue="GameWidth">
                     <div id="settingsGameResolutionCross">&#10006;</div>
@@ -84,7 +84,7 @@
             </div>
             <div class="settingsFieldContainer">
                 <div class="settingsFieldLeft">
-                    <span class="settingsFieldTitle">Launch in fullscreen.</span>
+                    <span class="settingsFieldTitle">Lanzar en pantalla completa.</span>
                 </div>
                 <div class="settingsFieldRight">
                     <label class="toggleSwitch">
@@ -95,7 +95,7 @@
             </div>
             <div class="settingsFieldContainer">
                 <div class="settingsFieldLeft">
-                    <span class="settingsFieldTitle">Automatically connect to the server on launch.</span>
+                    <span class="settingsFieldTitle">Conectar automaticamente con el servidor.</span>
                 </div>
                 <div class="settingsFieldRight">
                     <label class="toggleSwitch">
@@ -119,8 +119,8 @@
         </div>
         <div id="settingsTabMods" class="settingsTab" style="display: none;">
             <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Mod Settings</span>
-                <span class="settingsTabHeaderDesc">Enable or disable mods.</span>
+                <span class="settingsTabHeaderText">Configuracion de los mods</span>
+                <span class="settingsTabHeaderDesc">Habilita o desabilita mods.</span>
             </div>
             <div id="settingsSelServContainer">
                 <div id="settingsSelServContent">
@@ -134,31 +134,31 @@
             </div>
             <div id="settingsModsContainer">
                 <div id="settingsReqModsContainer">
-                    <div class="settingsModsHeader">Required Mods</div>
+                    <div class="settingsModsHeader">Mods requeridos</div>
                     <div id="settingsReqModsContent">
 
                     </div>
                 </div>
                 <div id="settingsOptModsContainer">
-                    <div class="settingsModsHeader">Optional Mods</div>
+                    <div class="settingsModsHeader">Mods opcionales</div>
                     <div id="settingsOptModsContent">
                         
                     </div>
                 </div>
                 <div id="settingsDropinModsContainer">
-                    <div class="settingsModsHeader">Drop-in Mods</div>
-                    <button id="settingsDropinFileSystemButton">+ Add Mods <span id="settingsDropinRefreshNote">(F5 to Refresh)</span></button>
+                    <div class="settingsModsHeader">Mods personalizados</div>
+                    <button id="settingsDropinFileSystemButton">+ click para agregar <span id="settingsDropinRefreshNote">(F5 para refrescar)</span></button>
                     <div id="settingsDropinModsContent">
                         
                     </div>
                 </div>
                 <div id="settingsShadersContainer">
                     <div class="settingsModsHeader">Shaderpacks</div>
-                    <div id="settingsShaderpackDesc">Enable or disable shaders. Please note, shaders will only run smoothly on powerful setups. You may add custom packs here.</div>
+                    <div id="settingsShaderpackDesc">Habilita o desabilita los shaders</div>
                     <div id="settingsShaderpackWrapper">
                         <button id="settingsShaderpackButton"> + </button>
                         <div class="settingsSelectContainer">
-                            <div class="settingsSelectSelected" id="settingsShadersSelected">Select Shaderpack</div>
+                            <div class="settingsSelectSelected" id="settingsShadersSelected">Seleccione Shaderpack</div>
                             <div class="settingsSelectOptions" id="settingsShadersOptions" hidden>
 
                             </div>
@@ -305,7 +305,7 @@
                 <div id="settingsAboutCurrentContent">
                     <div id="settingsAboutCurrentHeadline">
                         <img id="settingsAboutLogo" src="./assets/images/SealCircle.png">
-                        <span id="settingsAboutTitle">Conception Launcher</span>
+                        <span id="settingsAboutTitle">Panda Launcher</span>
                     </div>
                     <div id="settingsAboutCurrentVersion">
                         <div id="settingsAboutCurrentVersionCheck">&#10003;</div>
